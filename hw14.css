@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif; 
+}
+body{
+    
+    width: 100vw;
+    height: 100vh;
+    
+}
+.header {
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.logo{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+.main-container{
+    
+   display: flex;
+   flex-direction: row;
+   width: 100vw;
+   height: 100vh;
+
+}
+.title{
+    margin-top: 100px;
+    font-size: xx-large;
+    font-style: italic;
+border-bottom: 5px solid black;
+    margin-left: 200px;
+ 
+ }
+.productList{
+
+    width: 70vw;
+    background-color: rgb(247, 217, 217);
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+ }
+
+.cart{
+
+    width: 30vw;
+    background-color:rgb(255, 227, 249);
+ }
+.man{
+    margin-top: 100px;
+    margin-left: 3vw;
+    width:63vw ;
+    height: 37vh;
+    border:2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    display: flex;
+    flex-direction: row;
+ }
+
+.woman{
+    margin-top: 50px;
+    margin-left: 3vw;
+    width:63vw ;
+    height: 37vh;
+    border:2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    display: flex;
+    flex-direction: row;
+ }
+.card{
+    width: 170px;
+    height: 240px;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px gray;
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 1s;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+ }
+ .card:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+   
+ }
+
+ .photo img{
+    height: 150px;
+    
+ }
+.price{
+   position: absolute;
+   top: 8px;
+   right: 8px;
+   text-shadow: 0px 0px 10px tomato;
+  
+   
+ }
+.detail{
+    padding: 10px  15px;
+   
+ }
+ .pname{
+    
+    font-size: medium;
+    text-transform: uppercase;
+    color: rgb(78, 78, 78);
+    padding-left: 5px;
+   
+ }
+
+
